@@ -17,6 +17,9 @@
 
 # This variable is set first, so it can be overridden
 # by BoardConfigVendor.mk
+
+FULL_LINARO := true
+
 BOARD_USES_GENERIC_AUDIO := false
 
 TARGET_CPU_ABI := armeabi-v7a
